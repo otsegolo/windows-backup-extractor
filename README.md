@@ -1,6 +1,6 @@
 # Windows Backup Extractor
 
-This Python tool extracts files from Windows backup `.zip` archives and reconstructs the original folder structure. It supports both local directories and SMB (Server Message Block) shares for input and output.
+This Python tool extracts files from Windows backups (the ones that are a collection of `.zip` archives) and reconstructs the original folder structure. It supports both local directories and SMB shares for input and output.
 
 ## Features
 - Extract `.zip` files from Windows backup sets.
