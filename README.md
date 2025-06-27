@@ -2,12 +2,6 @@
 
 This Python tool extracts files from Windows backups (the ones that are a collection of `.zip` archives) and reconstructs the original folder structure. It supports both local directories and SMB shares for input and output.
 
-## Features
-- Extract `.zip` files from Windows backup sets.
-- Reconstruct the original folder structure.
-- Sanitize file paths to handle problematic characters (e.g., `%`, `\`).
-- Support for SMB shares as input and output directories.
-
 ## Requirements
 - Python 3.6 or higher
 - Required Python libraries:
@@ -54,14 +48,6 @@ Run the script with the SMB configuration:
 ```bash
 python extract_backup.py "input_share_path" "output_share_path" --smb-config smb_config.json
 ```
-
-## Project Structure
-- `extract_backup.py`: Main script for extracting and reconstructing files.
-- `README.md`: Documentation for the project.
-
-## Notes
-- Ensure the backup root directory exists and contains `.zip` files.
-- The script sanitizes file paths to handle special characters and Windows-style backslashes.
 
 ## License
 This project is licensed under the MIT License.
