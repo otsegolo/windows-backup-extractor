@@ -7,12 +7,10 @@ This Python tool extracts files from Windows backups (the ones that are a collec
 - Required Python libraries:
   - `smbprotocol`
   - `pathlib`
-  - `zipfile`
-  - `re`
 
 Install the required libraries using:
 ```bash
-pip install smbprotocol
+pip install smbprotocol pathlib
 ```
 
 ## Usage
