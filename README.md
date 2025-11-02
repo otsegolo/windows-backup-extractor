@@ -15,7 +15,7 @@ pip install smbprotocol pathlib
 
 ## Usage
 
-### Command-Line Arguments
+### command line only:
 ```bash
 python extract_backup.py <backup_root> <output_dir> [--smb-config <smb_config_file>]
 ```
@@ -24,12 +24,7 @@ python extract_backup.py <backup_root> <output_dir> [--smb-config <smb_config_fi
 - `<output_dir>`: Path to the output directory where files will be reconstructed.
 - `--smb-config`: (Optional) Path to a JSON file containing SMB configuration.
 
-### Example: Local Extraction
-```bash
-python extract_backup.py "/path/to/backup/root" "/path/to/output/directory"
-```
-
-### Example: SMB Extraction
+### SMB Config
 Create an SMB configuration file (e.g., `smb_config.json`):
 ```json
 {
